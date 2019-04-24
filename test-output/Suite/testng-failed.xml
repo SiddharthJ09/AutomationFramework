@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="Username" value="rohit.khot"/>
+    <parameter name="Password" value="test"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.servicenow.test.SN_MainTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="sn_IncidentTest" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.servicenow.test.SN_MainTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
